@@ -1,8 +1,18 @@
-import React, { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
+import React, { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 function App() {
-  return <h2>markdown preview starter</h2>
+  return (
+    <main>
+      <section className="markdown">
+        <textarea className="input"></textarea>
+        <article className="result">
+          <h1>markdown preview</h1>
+          <h3>no</h3>
+        </article>
+      </section>
+    </main>
+  );
 }
 
-export default App
+export default App;
